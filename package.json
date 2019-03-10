@@ -5,8 +5,7 @@
   "main": "agenda.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "front": "lite-server",
-    "back": "json-server --watch db.json --port 4000"
+    "start": "node index.html"
   },
   "keywords": [
     "JS",
