@@ -1,0 +1,21 @@
+{
+  "name": "agenda-master",
+  "version": "1.0.0",
+  "description": "Curso Caelum JavaScript - Construindo uma WebApp",
+  "main": "agenda.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "front": "lite-server",
+    "back": "json-server --watch db.json --port 4000"
+  },
+  "keywords": [
+    "JS",
+    "node"
+  ],
+  "author": "Ramon Gomes",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.14.2",
+    "lite-server": "^2.4.0"
+  }
+}
